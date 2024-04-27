@@ -122,20 +122,25 @@ body{
     padding: 6px 10px;
     vertical-align: middle;
 } 
-/*.secright{
-    height: 500px;
+.secright{
     display: flex;
     align-items: center;
     justify-content: center;
-} */
+    float:inline-end;
+    width: 100%;
+    position: relative;
+    background-image: none;
+    background: none;
+    float: right;
+    background-color: aliceblue;
+}
 .thumbnail{
-    height: auto;
+    height: 500px;
     width: 20%;
     float: left;
     position: relative;
     align-items: center;
-    border-radius: 50%;
-
+    border-radius: 80%;
 
 }
 .thumbnailDiv{
@@ -145,4 +150,41 @@ body{
     background-image: none;
     background: none;
     background-color: aliceblue;
+}
+
+.custom-section {
+    text-align: center;
+    padding: 20px 150px;
+    float:left;
+    width: 100%;
+    position: relative;
+    background-image: none;
+    background: none;
+    background-color: white;
+}
+
+.custom-section img {
+    /* Add custom styles for the image */
+    width: 20%; /* Make the image fill the width of the section */
+    height: 200; /* Maintain aspect ratio */
+    border-radius: 25%; /* Apply rounded corners */
+    /* box-shadow: 0 0 2px rgba(66, 7, 7, 0.1);  */
+    padding: 20px 50px;
+}
+
+.textphotosection{
+    text-align: center;
+    color: black;
+    display: flex;
+    /* padding: 20px auto 30px; */
+    margin-left: auto;
+}
+
+.textphotosection span{
+    text-align: center;
+    padding-left: 150px;
+    padding: 20px 0;
+    font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
