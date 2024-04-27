@@ -23,6 +23,7 @@
     position: sticky;
     top: 0;
     cursor: pointer;
+    background: none;
 
 }
 .nav-list{
@@ -65,7 +66,7 @@ body{
     background-size: cover;
     background-blend-mode: darken;
     background-repeat: no-repeat;
-}
+} 
 
 .background_firstSection{
     height: 100vh;
@@ -127,3 +128,21 @@ body{
     align-items: center;
     justify-content: center;
 } */
+.thumbnail{
+    height: auto;
+    width: 20%;
+    float: left;
+    position: relative;
+    align-items: center;
+    border-radius: 50%;
+
+
+}
+.thumbnailDiv{
+    float:inline-end;
+    width: 100%;
+    position: relative;
+    background-image: none;
+    background: none;
+    background-color: aliceblue;
+}
