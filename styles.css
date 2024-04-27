@@ -27,7 +27,7 @@
 
 }
 .nav-list{
-    width: 50%;
+    width: 70%;
     display: flex;
     align-items: center;
 }
@@ -38,6 +38,11 @@
 .nav-list li a{
     text-decoration: none;
     color: white;
+    font-size: 20px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
 }
 .nav-list li a:hover{
     color: grey;
@@ -45,7 +50,7 @@
 }
 
 .rightnav{
-    width: 50%;
+    width: 30%;
     text-align: right;
     /* float: right; */
     background: none;
@@ -154,7 +159,7 @@ body{
 
 .custom-section {
     text-align: center;
-    padding: 20px 150px;
+    /* padding: 20px 150px; */
     float:left;
     width: 100%;
     position: relative;
@@ -167,24 +172,145 @@ body{
     /* Add custom styles for the image */
     width: 20%; /* Make the image fill the width of the section */
     height: 200; /* Maintain aspect ratio */
-    border-radius: 25%; /* Apply rounded corners */
-    /* box-shadow: 0 0 2px rgba(66, 7, 7, 0.1);  */
-    padding: 20px 50px;
+    border-radius: 43%; /* Apply rounded corners */
+    /* box-shadow: 0 0 2px rgba(31, 16, 16, 0.1);  */
+    padding: 20px 150px;
 }
 
 .textphotosection{
     text-align: center;
-    color: black;
+    color:black;
     display: flex;
-    /* padding: 20px auto 30px; */
+    /* padding: 20px auto 0px; */
     margin-left: auto;
+    justify-content: center;
 }
 
 .textphotosection span{
     text-align: center;
-    padding-left: 150px;
-    padding: 20px 0;
+    padding-right: 30px;
+    padding:20px 80px;
     font-family: "Ubuntu", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+    font-weight: 400;
+    font-style: normal;
+    justify-content: center;
+    align-items: center;
+    max-width: 40%;
+    margin: auto;
 }
+
+.paras{
+    padding: 0px 65px;
+}
+.custom-section-left{
+    text-align: center;
+    /* padding: 20px 150px; */
+    float:left;
+    width: 100%;
+    position: relative;
+    background-image: none;
+    background: none;
+    background-color: white;
+
+}
+
+.custom-section-left img {
+    /* Add custom styles for the image */
+    width: 20%; /* Make the image fill the width of the section */
+    height: 200; /* Maintain aspect ratio */
+    border-radius: 43%; /* Apply rounded corners */
+    /* box-shadow: 0 0 2px rgba(31, 16, 16, 0.1);  */
+    padding: 20px 150px;
+    flex-direction: row-reverse;
+
+}
+
+.textphotosection-left{
+    text-align: center;
+    color:black;
+    display: flex;
+    /* padding: 20px auto 0px; */
+    margin-left: auto;
+    justify-content: center;
+    flex-direction: row-reverse;
+
+}
+
+.textphotosection-left span{
+    text-align: center;
+    padding-right: 30px;
+    padding:20px 80px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    justify-content: center;
+    align-items: center;
+    max-width: 40%;
+    margin: auto;
+}
+
+.paras-left{
+    padding: 0px 65px;
+}
+
+.Contact{
+    background-color: rgb(142, 158, 172);/*error part 2*/
+    height: 1190px;
+}
+.text-center{
+    text-align: center;
+    padding-top: 20px ;           /*error part -1*/
+    font-family: "Ubuntu", sans-serif;
+    /* font-weight: 00; */
+    font-style: normal;
+}
+.form{
+    max-width: 354px;
+    margin:24px auto;
+}
+
+.form input{
+    margin: 11px 0;
+     width: 100%;
+     padding: 5px 3px;
+     font-size: 19px;
+     border: 2px solid gray;
+     border-radius: 6px;
+     /* justify-content: center;
+     align-items: center; */
+}
+
+.btn-dark{
+    color: black;
+    border:2px solid black;
+    border-radius: 5px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.text-footer{
+    padding: 25px 0;
+    text-align: center;
+    font-family: "Ubuntu", sans-serif;
+    /* font-weight: 00; */
+    font-style: normal;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* @media only screen and (max-width: 1140px){
+    .nav-list{
+        flex-direction: column;
+    }
+    .navbar_background{
+        flex-direction: column;
+    }
+    .rightnav{
+        text-align: center;
+    }
+    
+} */
