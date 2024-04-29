@@ -216,7 +216,7 @@ body{
 .custom-section-left img {
     /* Add custom styles for the image */
     width: 20%; /* Make the image fill the width of the section */
-    height: 200; /* Maintain aspect ratio */
+    height: 200;/* Maintain aspect ratio
     border-radius: 43%; /* Apply rounded corners */
     /* box-shadow: 0 0 2px rgba(31, 16, 16, 0.1);  */
     padding: 20px 150px;
@@ -293,7 +293,7 @@ body{
     padding: 25px 0;
     text-align: center;
     font-family: "Ubuntu", sans-serif;
-    /* font-weight: 00; */
+    /* font-weight: 20; */
     font-style: normal;
     background-color: gray;
     display: flex;
@@ -359,6 +359,9 @@ body{
     .buttons{
         text-align: center;
     }
+    /* .custom-section-left img{
+        flex-direction: column;
+    } */
 
 
 }
