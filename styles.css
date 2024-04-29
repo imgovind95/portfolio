@@ -1,22 +1,22 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-.logo{
+.logo {
     width: 20%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.logo img{
+.logo img {
     width: 33%;
     border: 3px solid white;
     border-radius: 1800px;
 }
 
-.navbar_background{
+.navbar_background {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -25,30 +25,34 @@
     cursor: pointer;
     background: none;
 }
-.nav-list{
+
+.nav-list {
     width: 70%;
     display: flex;
     align-items: center;
 }
-.nav-list li{
+
+.nav-list li {
     list-style: none;
     padding: 26px 30px;
 }
-.nav-list li a{
+
+.nav-list li a {
     text-decoration: none;
     color: white;
     font-size: 20px;
     font-family: "Ubuntu", sans-serif;
     font-weight: 400;
     font-style: normal;
-    
+
 }
-.nav-list li a:hover{
+
+.nav-list li a:hover {
     color: grey;
 
 }
 
-.rightnav{
+.rightnav {
     width: 30%;
     text-align: right;
     /* float: right; */
@@ -57,7 +61,7 @@
     padding: 0 23px;
 }
 
-#Search{
+#Search {
     padding: 5px;
     font-size: 17px;
     border: 2px solid white;
@@ -65,18 +69,18 @@
     background: none;
 }
 
-body{
+body {
     background: rgba(0, 0, 0, 0.7)url(jpg1.jpg);
     background-size: cover;
     background-blend-mode: darken;
     background-repeat: no-repeat;
-} 
+}
 
-.background_firstSection{
+.background_firstSection {
     height: 100vh;
 }
 
-.box-main{
+.box-main {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -87,17 +91,18 @@ body{
     height: 75%;
 }
 
-.firstHalf{
+.firstHalf {
     width: 80%;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-.secondHalf{
+.secondHalf {
     width: 30%;
 }
-.secondHalf img{
+
+.secondHalf img {
     width: 70%;
     border: 2px solid white;
     border-radius: 20px;
@@ -105,14 +110,15 @@ body{
     margin: auto;
 }
 
-.text-big{
+.text-big {
     font-size: 41px;
 }
-.text-small{
+
+.text-small {
     font-size: 18px;
 }
 
-.btn{
+.btn {
     padding: 8px 20px;
     margin: 7px 4px;
     border: 2px solid white;
@@ -122,15 +128,16 @@ body{
     cursor: pointer;
 }
 
-.btn-sm{
+.btn-sm {
     padding: 6px 10px;
     vertical-align: middle;
-} 
-.secright{
+}
+
+.secright {
     display: flex;
     align-items: center;
     justify-content: center;
-    float:inline-end;
+    float: inline-end;
     width: 100%;
     position: relative;
     background-image: none;
@@ -138,7 +145,8 @@ body{
     float: right;
     background-color: aliceblue;
 }
-.thumbnail{
+
+.thumbnail {
     height: 500px;
     width: 20%;
     float: left;
@@ -147,8 +155,9 @@ body{
     border-radius: 80%;
 
 }
-.thumbnailDiv{
-    float:inline-end;
+
+.thumbnailDiv {
+    float: inline-end;
     width: 100%;
     position: relative;
     background-image: none;
@@ -159,7 +168,7 @@ body{
 .custom-section {
     text-align: center;
     /* padding: 20px 150px; */
-    float:left;
+    float: left;
     width: 100%;
     position: relative;
     background-image: none;
@@ -169,26 +178,29 @@ body{
 
 .custom-section img {
     /* Add custom styles for the image */
-    width: 20%; /*Make the image fill the width of the section*/
-    height: 200; /* Maintain aspect ratio */
-    border-radius: 43%; /* Apply rounded corners */
+    width: 20%;
+    /*Make the image fill the width of the section*/
+    height: 200;
+    /* Maintain aspect ratio */
+    border-radius: 43%;
+    /* Apply rounded corners */
     /* box-shadow: 0 0 2px rgba(31, 16, 16, 0.1);  */
     padding: 20px 150px;
 }
 
-.textphotosection{
+.textphotosection {
     text-align: center;
-    color:black;
+    color: black;
     display: flex;
     /* padding: 20px auto 0px; */
     margin-left: auto;
     justify-content: center;
 }
 
-.textphotosection span{
+.textphotosection span {
     text-align: center;
     padding-right: 30px;
-    padding:20px 80px;
+    padding: 20px 80px;
     font-family: "Ubuntu", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -198,13 +210,14 @@ body{
     margin: auto;
 }
 
-.paras{
+.paras {
     padding: 0px 65px;
 }
-.custom-section-left{
+
+.custom-section-left {
     text-align: center;
     /* padding: 20px 150px; */
-    float:left;
+    float: left;
     width: 100%;
     position: relative;
     background-image: none;
@@ -215,18 +228,21 @@ body{
 
 .custom-section-left img {
     /* Add custom styles for the image */
-    width: 20%; /* Make the image fill the width of the section */
-    height: 200;/* Maintain aspect ratio
-    border-radius: 43%; /* Apply rounded corners */
+    width: 20%;
+    /* Make the image fill the width of the section */
+    height: 200;
+    /* Maintain aspect ratio*/
+    border-radius: 43%;
+    /* Apply rounded corners */
     /* box-shadow: 0 0 2px rgba(31, 16, 16, 0.1);  */
     padding: 20px 150px;
     flex-direction: row-reverse;
 
 }
 
-.textphotosection-left{
+.textphotosection-left {
     text-align: center;
-    color:black;
+    color: black;
     display: flex;
     /* padding: 20px auto 0px; */
     margin-left: auto;
@@ -235,10 +251,10 @@ body{
 
 }
 
-.textphotosection-left span{
+.textphotosection-left span {
     text-align: center;
     padding-right: 30px;
-    padding:20px 80px;
+    padding: 20px 80px;
     font-family: "Ubuntu", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -248,40 +264,44 @@ body{
     margin: auto;
 }
 
-.paras-left{
+.paras-left {
     padding: 0px 65px;
 }
 
-.Contact{
-    background-color: rgb(142, 158, 172);/*error part 2*/
+.Contact {
+    background-color: rgb(142, 158, 172);
+    /*error part 2*/
     height: 1190px;
 }
-.text-center{
+
+.text-center {
     text-align: center;
-    padding-top: 20px ;           /*error part -1*/
+    padding-top: 20px;
+    /*error part -1*/
     font-family: "Ubuntu", sans-serif;
     /* font-weight: 00; */
     font-style: normal;
 }
-.form{
+
+.form {
     max-width: 354px;
-    margin:24px auto;
+    margin: 24px auto;
 }
 
-.form input{
+.form input {
     margin: 11px 0;
-     width: 100%;
-     padding: 5px 3px;
-     font-size: 19px;
-     border: 2px solid gray;
-     border-radius: 6px;
-     /* justify-content: center;
+    width: 100%;
+    padding: 5px 3px;
+    font-size: 19px;
+    border: 2px solid gray;
+    border-radius: 6px;
+    /* justify-content: center;
      align-items: center; */
 }
 
-.btn-dark{
+.btn-dark {
     color: black;
-    border:2px solid black;
+    border: 2px solid black;
     border-radius: 5px;
     font-family: "Ubuntu", sans-serif;
     font-weight: 400;
@@ -289,7 +309,7 @@ body{
     font-size: 20px;
 }
 
-.text-footer{
+.text-footer {
     padding: 25px 0;
     text-align: center;
     font-family: "Ubuntu", sans-serif;
@@ -301,7 +321,7 @@ body{
     align-items: center;
 }
 
-.burger{
+.burger {
     display: none;
     position: absolute;
     cursor: pointer;
@@ -309,56 +329,69 @@ body{
     top: 15px;
 }
 
-.line{
+.line {
     width: 33px;
     background-color: white;
     height: 4px;
     margin: 5px 3px;
 }
 
-@media only screen and (max-width: 1140px){
-    .nav-list{
+@media only screen and (max-width: 1140px) {
+    .nav-list {
         flex-direction: column;
     }
-    .navbar_background{
+
+    .navbar_background {
         flex-direction: column;
         transition: all 0.3s ease-out;
         height: 447px;
     }
-    .rightnav{
+
+    .rightnav {
         text-align: center;
     }
-    .box-main{
+
+    .box-main {
         flex-direction: column-reverse;
         max-width: 80%;
     }
-    #search{
+
+    #search {
         width: 100%;
     }
-    .burger{
+
+    .burger {
         display: block;
     }
-    .h-nav-resp{
+
+    .h-nav-resp {
         height: 72px;
     }
-    .v-class-resp{
+
+    .v-class-resp {
         opacity: 0;
     }
-    .form{
+
+    .form {
         max-width: 62%;
     }
-    .custom-section{
+
+    .custom-section {
         flex-direction: column-reverse;
     }
-    .text-small{
+
+    .text-small {
         text-align: center;
     }
-    .text-big{
+
+    .text-big {
         text-align: center;
     }
-    .buttons{
+
+    .buttons {
         text-align: center;
     }
+
     /* .custom-section-left img{
         flex-direction: column;
     } */
