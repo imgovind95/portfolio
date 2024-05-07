@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-.background{
+.about-background{
         background:white;
         background-size: cover;
         background-blend-mode: darken;
@@ -15,6 +15,39 @@
     border-radius: 20px;
     display: block;
     margin: auto;
+} */
+.custom-section {
+    text-align: center;
+    /* padding: 20px 150px; */
+    float: left;
+    width: 100%;
+    position: relative;
+    background-image: none;
+    background: none;
+    background-color: white;
+}
+.custom-section img {
+    /* Add custom styles for the image */
+    width: 20%;
+    /*Make the image fill the width of the section*/
+    height: 200;
+    /* Maintain aspect ratio */
+    border-radius: 43%;
+    /* Apply rounded corners */
+    /* box-shadow: 0 0 2px rgba(31, 16, 16, 0.1);  */
+    padding: 20px 150px;
+}
+
+/* .lol-left {
+    text-align: center;
+    /* padding: 20px 150px; */
+   /* float: left;
+    width: 100%;
+    position: relative;
+    background-image: none;
+    background: none;
+    background-color: white;
+
 } */
 
 .secondHalf{
