@@ -4,7 +4,7 @@
 }
 
 .about-background{
-        background:white;
+        background:none;
         background-size: cover;
         background-blend-mode: darken;
         background-repeat: no-repeat;
@@ -24,7 +24,7 @@
     position: relative;
     background-image: none;
     background: none;
-    background-color: white;
+    /* background-color: white; */
 }
 .custom-section img {
     /* Add custom styles for the image */
@@ -36,6 +36,7 @@
     /* Apply rounded corners */
     /* box-shadow: 0 0 2px rgba(31, 16, 16, 0.1);  */
     padding: 20px 150px;
+    float: left;
 }
 
 /* .lol-left {
@@ -61,4 +62,16 @@
     box-sizing: border-box;
     width: 100vw;
     
+}
+
+.paras{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    /* max-width: ; */
+    /*error part -1*/
+    /* font-family: "Ubuntu", sans-serif; */
+    /* font-weight: 00; */
+    /* font-style: normal; */
 }
